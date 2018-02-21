@@ -16,6 +16,13 @@
     max-width: 100%;
     height: auto;
     border-radius: 5px;
+    box-shadow: 5px 5px 5px grey;
+    transition: all .2s ease-in-out;
+  }
+  img:hover {
+    box-shadow: 10px 10px 5px grey;
+    -webkit-transform: translateX(-3px);
+    transform: translateX(-3px);
   }
   h5 {
     margin: 0;
