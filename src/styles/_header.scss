@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=VT323');
+
 #particles-js {
   background: $main;
   display: flex;
@@ -16,6 +18,7 @@
 .header {
   z-index: 1;
   text-align: center;
+  font-family: VT323;
   color:#FFF;
   position: absolute;
   top: 42%;
@@ -25,6 +28,7 @@
   transform: translate(-50%, -50%);
   .site-title {
     font-size: 50px;
+    transform: scale(1, 0.8);
     display: block;
     line-height: 1;
     color: #FFF;
