@@ -1,4 +1,4 @@
-#projects {
+#coding-projects, #media-projects, #films {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -72,6 +72,10 @@
       float: left;
     }
   }
+}
+
+.video-description {
+  text-align: center;
 }
 
 .project-link {
